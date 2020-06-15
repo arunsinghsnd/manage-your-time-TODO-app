@@ -1,4 +1,4 @@
-## Safearth-Assigment
+## Safearth-Assignment
 
 
 ## Setup
