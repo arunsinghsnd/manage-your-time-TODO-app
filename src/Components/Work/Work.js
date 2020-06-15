@@ -61,7 +61,7 @@ class Work extends Component{
             <div className="container">
             <div className="row">
               <div className="col-10 mx-auto col-md-8 mt-4">
-                <h3 className="text-capitalize text-center">ADD TASK and Time Input</h3>
+                <h3 className="text-capitalize text-center">ADD TASK and TIME INPUT</h3>
                 <TaskInput
                   handleSubmit={this.handleSubmit}
                   item={this.state.item}
