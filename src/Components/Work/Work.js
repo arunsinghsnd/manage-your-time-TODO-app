@@ -8,6 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Timer from '../Timer/Timer';
 
 class Work extends Component{
+  // here setting the state
     state = {
         items: [],
         id: 0,
@@ -16,6 +17,8 @@ class Work extends Component{
       };
       handleSubmit = e => {e.preventDefault();
     
+
+        // adding the new items
         const newItem = {
           id: this.state.id,
           title: this.state.item
